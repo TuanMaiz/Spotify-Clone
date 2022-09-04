@@ -1,0 +1,24 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    opacity: 0.65;
+    transition: 200ms ease-in;
+}
+.sidebarOption:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.sidebarOption__icon{
+
+}
+.sidebarOption h4{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.sidebarOption p{
+    padding-left: 15px;
+    font-size: 0.9em;
+    font-weight: 400;
+}
